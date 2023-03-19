@@ -1,38 +1,242 @@
-.App {
-  text-align: center;
+.main{
+  height: 100vh;
+  width: 100vw;
+  background-image: url('./assests/image\ 3.svg'), linear-gradient(150deg,#54ddba, #4d114f);
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+body{
+  margin: 0;
+  overflow-x: hidden;
+  /* box-sizing: content-box; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo{
+  width: 70px;
+  margin: 20px 0px 0px 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar{
+  opacity: 100%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+li{
+  padding: 20px;
+}
+.homepage{
+  height: 50vh;
   display: flex;
-  flex-direction: column;
+  justify-content:center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.sideline{
+  width: 85vw;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.openr{
+  width: 50%;
+  position: relative;
+  top: 20%;
+}
+.country{
+  width: 500px;
+  /* position: relative;
+  right: 400px; */
+}
+.registration{
+  margin-top: 30px;
+  width: 80vw;
+  /* height: 400px; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.registration-link{
+  width: 200px;
+}
+.aboutus{
+  height: 100vh;
+  width: 100vw;
+  background-image: url('./assests/3\ 1.svg'), linear-gradient(150deg,#54ddba, #4d114f);
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  margin-bottom: 0px;
+}
+.about-heading{
+  margin-top: 100px;
+  margin-left:100px;
+}
+.aboutusimg{
+  width: 50%;
+}
+.about-detail{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  width: 100%;
+  margin: 100px 0px;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.prize{
+  height:max-content;
+  width: 100vw;
+  margin-top: 0px;
+  padding-bottom: 20px;
+  /* display: flex; */
+  background-image: linear-gradient(150deg,#54ddba, #4d114f);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.prize-heading h1{
+  font-size: 80px;
+  color: white;
+  padding: 20px 0px 0px 20px;
+}
+
+.prizes{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.prizeImg{
+  width: 500px;
+}
+
+.coming{
+  font-size: 50px;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+h4{
+  font-size: 40px;
+}
+.faqoutbox{
+  width: 100vw;
+  height: fit-content;
+  padding-bottom: 50px;
+  background-image: linear-gradient(150deg,#54ddba, #4d114f);
+}
+
+.faq{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.faqimg{
+  margin: 50px 0px 25px 50px;
+  width: 250px;
+}
+
+.faqimgbox{
+  width: 50%;
+  height: 100%;
+}
+
+.girl{
+  width: 100%;
+  height: 100%;
+}
+
+.faqbox{
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  width: 90%;
+  height: fit-content;
+  flex-wrap: wrap;
+  border: 1px solid #ffd0cb;
+}
+.accordion-item{
+  background-color: transparent;
+  border: 1px solid #ffd0cb;
+}
+.accordion-button{
+  background-color: transparent;
+  font-size: 30px;
+  color: #a2c4c0;
+}
+strong{
+  font-size: 30px;
+  color: #a2c4c0;
+}
+.accordion-body{
+  font-size: 30px;
+}
+.accordian-a{
+  color: pink;
+}
+p{
+  font-size: 30px;
+}
+
+
+@media screen and (max-width: 800px) {
+  .openr{
+      width: 100%;
   }
-  to {
-    transform: rotate(360deg);
+  .country{
+      width: 250px;
+  }
+  .registration-link{
+      width: 250px;
+  }
+  .about-heading{
+      margin: 100px 20px;
+  }
+  .aboutusimg{
+      width: 90%;
+
+  }
+  .about-detail{
+      font-family:Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      width: 80%;
+      margin: 100px 20px;
+      color: white;
+  }
+  .faqimgbox{
+      width: 100%;
+      height: 50%;
+  }
+  .faqoutbox{
+      height: fit-content;
+      padding: 10px;
+  }
+  .faqbox{
+      height: fit-content;
+      padding: 10px;
+  }
+  .faq{
+      height: fit-content;
+  }
+  .faqimgbox{
+      height: fit-content;
+  }
+  strong{
+      font-size: 20px;
+  }
+  .accordion-body{
+      font-size: 20px;
+  }
+  .accordion-button{
+      font-size: 20px;
+  }
+  p{
+      font-size: 20px;
+  }
+  .prizeImg{
+      width: 250px;
+      height: 200px;
+      margin: 0x 0px;
+  }
+  .prize-heading h1{
+      font-size: 50px;
   }
 }
