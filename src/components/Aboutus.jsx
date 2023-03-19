@@ -1,5 +1,5 @@
 import React from 'react'
-import About from '../assests/about.svg'
+import About from '../assests/About us.png'
 
 function Aboutus() {
   return (

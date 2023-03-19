@@ -1,8 +1,8 @@
 import React from 'react'
-import openr from '../assests/open-r.svg'
+import openr from '../assests/open-r.png'
 import country from '../assests/Code for country side.svg'
 import registration from '../assests/registration.svg'
-import logo from '../assests/Union.svg'
+import logo from '../assests/Union (1).png'
 
 function MainPage() {
   return (

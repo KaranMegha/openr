@@ -1,5 +1,5 @@
 import React from 'react'
-import faq from '../assests/faq.svg'
+import faq from '../assests/faq.png'
 import girl from '../assests/image 8.svg'
 
 const Faq = () => {

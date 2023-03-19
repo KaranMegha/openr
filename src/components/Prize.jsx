@@ -1,10 +1,10 @@
 import React from 'react'
-import a from '../assests/1.svg'
-import b from '../assests/2.svg'
-import c from '../assests/3.svg'
-import d from '../assests/4.svg'
-import e from '../assests/5.svg'
-import prize from '../assests/prizes (1).svg'
+import a from '../assests/Group 144.png'
+import b from '../assests/Group 145.png'
+import c from '../assests/Group 146.png'
+import d from '../assests/Group 147.png'
+import e from '../assests/Group 148.png'
+import prize from '../assests/prizes.png'
 
 const Prize = () => {
   return (
