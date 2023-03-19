@@ -4,12 +4,13 @@ import b from '../assests/2.svg'
 import c from '../assests/3.svg'
 import d from '../assests/4.svg'
 import e from '../assests/5.svg'
+import prize from '../assests/prizes (1).svg'
 
 const Prize = () => {
   return (
       <div className="prize">
       <div className="prize-heading">
-        <h1>Prizes</h1>
+        <img className="faqimg" src={prize} alt=''/>
       </div>
       <div className="prizes">
         <img className="prizeImg" src={a} alt=""/>
