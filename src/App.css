@@ -88,10 +88,9 @@ li{
   background-image: linear-gradient(150deg,#54ddba, #4d114f);
 }
 
-.prize-heading h1{
-  font-size: 80px;
-  color: white;
-  padding: 20px 0px 0px 20px;
+.prizeheadingimg{
+  width: 1000px;
+  padding: 50px 0px 0px 20px;
 }
 
 .prizes{
@@ -169,7 +168,7 @@ p{
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 915px) {
   .openr{
       width: 100%;
   }
@@ -224,9 +223,10 @@ p{
       font-size: 20px;
   }
   .prizeImg{
-      width: 250px;
+      width: 200px;
   }
-  .prize-heading h1{
-      font-size: 50px;
+  .prizeheadingimg{
+    width: 350px;
+    padding: 50px 0px 0px 20px;
   }
 }

@@ -10,7 +10,7 @@ const Prize = () => {
   return (
       <div className="prize">
       <div className="prize-heading">
-        <img className="faqimg" src={prize} alt=''/>
+        <img className="prizeheadingimg" src={prize} alt=''/>
       </div>
       <div className="prizes">
         <img className="prizeImg" src={a} alt=""/>
