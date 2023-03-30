@@ -11,7 +11,7 @@ function App() {
     <div>
       <MainPage/>
       <Aboutus/>
-      {/* <Sponsor/> */}
+      <Sponsor/>
       <Prize/>
       <Faq/>
     </div>

@@ -1,5 +1,5 @@
 .sponsorContainer{
-    height: 100vh;
+    height: fit-content;
     width: 100vw;
     background-image: url('../assests/sponser.svg'), linear-gradient(150deg,#54ddba, #4d114f);
     background-position: center;
@@ -9,11 +9,20 @@
 
 .sponsorHeading{
     width: 80vw;
-    margin: 20px 0;
+    margin: 50px 0;
 }
 
 .abc{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.logo{
+    width: 95%;
+}
+.sponsorImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
 }
