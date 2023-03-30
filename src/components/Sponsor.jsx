@@ -15,7 +15,7 @@ const Sponsor = () => {
             <img className='sponsorHeading' src={title} alt=""/>
             </div>
             <div className='sponsorImg'>
-              <img className='logo' src={logo} alt='' />
+              <img className='slogo' src={logo} alt='' />
             </div>
         </div>
     </div>
